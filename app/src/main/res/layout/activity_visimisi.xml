@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gambar2"
+    tools:context=".visimisi">
+
+    <ImageView
+        android:layout_width="253dp"
+        android:layout_height="203dp"
+        android:layout_gravity="center"
+        android:src="@drawable/bg1"/>
+
+    <TextView
+        android:layout_width="11dp"
+        android:layout_height="76dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:gravity="center"
+        android:text="VISI-MISI SMKN1SAYUNG"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="VISI SMKN1SAYUNG"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Mewujudkan sumber daya manusia yang religius, unggul, handal, profesional, berkompeten dan mampu bersaing di era global."
+        android:textColor="#000"
+        android:textSize="12dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="11dp"
+        android:layout_height="49dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:gravity="center"
+        android:text="MISI SMKN1SAYUNG"
+        android:textColor="#000"
+        android:textSize="17dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="_Membantu tamatan berpribadian unggul dan mampu mengembangkan diri "
+        android:textColor="#000"
+        android:textSize="13dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="_Menyiapkan wirausahawan yang handal "
+        android:textColor="#000"
+        android:textSize="13dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="376dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="_Menyiapkan tenaga terampil yang kompoten dan mampu bersaing di pasar kerja nasional maupun internasional"
+        android:textColor="#000"
+        android:textSize="13dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="_Mewujudkan SMKN1SAYUNG sebagai sekolah mandiri."
+        android:textColor="#000"
+        android:textSize="13dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

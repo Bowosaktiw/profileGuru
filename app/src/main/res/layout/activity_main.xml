@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gambar2"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/gambarguru" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="PROFIL GURU"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="NUSRHOTUL AMANATI,s.p.d"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/buttonrequestguru"
+        android:layout_width="252dp"
+        android:layout_height="70dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="IDENTITAS GURU"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/buttonrequest"
+        android:layout_width="252dp"
+        android:layout_height="70dp"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="VISI-MISI SEKOLAH"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="BY.Bowo Sakti W."
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:textStyle="normal|bold"/>
+
+
+</LinearLayout>
